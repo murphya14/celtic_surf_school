@@ -37,14 +37,14 @@ color: #4B0ABE !important;}
 
 }
 .gradient-custom {
-  /* fallback for old browsers */
-  background: #fa709a;
+   /* fallback for old browsers */
+  background: #4facfe;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(to right, rgba(250, 112, 154, 0.5), rgba(254, 225, 64, 0.5));
+  background: -webkit-linear-gradient(to right, rgba(79, 172, 254, 0.5), rgba(0, 242, 254, 0.5));
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(250, 112, 154, 0.5), rgba(254, 225, 64, 0.5))
+  background: linear-gradient(to right, rgba(79, 172, 254, 0.5), rgba(0, 242, 254, 0.5))
 }
 .title {
 font-family: 'Indie Flower', cursive;}
