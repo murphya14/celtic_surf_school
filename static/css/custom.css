@@ -36,6 +36,8 @@ color: #4B0ABE !important;}
   background: #4B0ABE;
 
 }
+
+
 .gradient-custom {
    /* fallback for old browsers */
   background: #4facfe;
@@ -49,6 +51,8 @@ color: #4B0ABE !important;}
 .title {
 font-family: 'Indie Flower', cursive;}
 
+
+
 body { padding-top: 0px;
     display: flex;
     flex-direction: column;
@@ -59,7 +63,7 @@ body { padding-top: 0px;
 
 .carousel-image {height: 400px;}
 
-.icon {color: #fb3 !important}
+.icon {color: #4B0ABE !important}
 
 .hh-button {background-color: #1d9ce5 !important}
 
