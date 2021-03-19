@@ -37,6 +37,10 @@ color: #4B0ABE !important;}
 
 }
 
+.navbar-toggler-icon {
+    color: RED;
+}
+
 
 .gradient-custom {
    /* fallback for old browsers */
