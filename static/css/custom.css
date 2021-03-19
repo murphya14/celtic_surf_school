@@ -37,10 +37,12 @@ color: #4B0ABE !important;}
 
 }
 
-.navbar-toggler-icon {
-    color: RED;
-}
+.notice_text {font-family: 'Architects Daughter', cursive;}
 
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+}
 
 .gradient-custom {
    /* fallback for old browsers */
