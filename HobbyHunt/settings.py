@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'search',
     'home',
     'reviews',
-    'django-secure',
+   
 
 
     
@@ -69,7 +69,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
-    'djangosecure.middleware.SecurityMiddleware',
+  
 ]
 
 ROOT_URLCONF = 'HobbyHunt.urls'
@@ -94,8 +94,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'HobbyHunt.wsgi.application'
-SECURE_SSL_REDIRECT = True
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 
 
