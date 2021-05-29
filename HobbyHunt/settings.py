@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'search',
     'home',
     'reviews',
+    'djangosecure',
 
 
     
@@ -68,10 +69,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+    'djangosecure.middleware.SecurityMiddleware',
 ]
 
 ROOT_URLCONF = 'HobbyHunt.urls'
-
+SECURE_SSL_REDIRECT = True
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
