@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'search',
     'home',
     'reviews',
-    'djangosecure',
+    'django-secure',
 
 
     
