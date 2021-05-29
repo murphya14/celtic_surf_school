@@ -73,7 +73,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'HobbyHunt.urls'
-SECURE_SSL_REDIRECT = True
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -93,6 +94,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'HobbyHunt.wsgi.application'
+SECURE_SSL_REDIRECT = True
+SECURE_PROXY_SSL_HEADER = (“HTTP_X_FORWARDED_PROTO”, “https”)
 
 
 # Database
