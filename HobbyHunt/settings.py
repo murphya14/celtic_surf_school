@@ -16,7 +16,7 @@ from django.contrib.messages import constants as messages
 if os.path.exists('env.py'):
     import env 
 
-
+os.environ['wsgi.url_scheme'] = 'https'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -33,7 +33,7 @@ SECRET_KEY = '(i9b4aes#h1)m3h_8jh^duxrdh$4pu8-q5vkba2yf$ptd1lev_'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'celticsurfschool.herokuapp.com', 'https://www.celticsurfschool.ie/]
+ALLOWED_HOSTS = ['localhost', 'celticsurfschool.herokuapp.com', 'https://www.celticsurfschool.ie/']
 
 
 # Application definition
@@ -162,6 +162,9 @@ MESSAGE_TAGS = {
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET')
