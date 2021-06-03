@@ -7,7 +7,7 @@
   
 
 
-<div class="container z-depth-1 my-5 px-0">
+<div class="container z-depth-1 my-5 px-0 card">
 
   <!--Section: Content-->
   <section class="my-md-5" 
@@ -24,11 +24,11 @@
         <div class="row ">
           <div class="col-md-6 mb-4 ">
 
-            <div class="card btn-outline-light font_custom">
+            <div class="btn-outline-light font_custom">
 
        
 
-              <div class="card-body font_custom form-outline mb-4">
+              <div class="card-body font_custom form-outline font-weight-bold mb-4">
                 {% csrf_token %}
                 {{ form.as_p }}
 
