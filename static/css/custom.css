@@ -6,10 +6,19 @@ a:link { color:#1bbc47;
   text-decoration:none;
   }
   
-  a:link:hover {
+a:link:hover {
   color:#6200EA;
   text-decoration : none;
   }
+
+a { color:#1bbc47;
+    text-decoration:none;
+    }
+    
+a:hover {
+    color:#6200EA;
+    text-decoration : none;
+    }
 
 .search {font-size: 14px;}
 
