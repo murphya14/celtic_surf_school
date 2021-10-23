@@ -2,11 +2,11 @@
 .nav-item {font-size: 20px;
 color: #6200EA !important;}
 
-.font_link  { color:#1bbc47;
+a:link { color:#1bbc47;
   text-decoration:none;
   }
   
-  font_link:hover {
+  a:link:hover {
   color:#6200EA;
   text-decoration : none;
   }
