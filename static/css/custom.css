@@ -2,21 +2,21 @@
 .nav-item {font-size: 20px;
 color: #6200EA !important;}
 
-a:link { color:#1bbc47;
+a:link { color:#6200EA;
   text-decoration:none;
   }
   
 a:link:hover {
-  color:#6200EA;
+  color:#1bbc47;
   text-decoration : none;
   }
 
-a { color:#1bbc47;
+a { color: #6200EA;
     text-decoration:none;
     }
     
 a:hover {
-    color:#6200EA;
+    color: #1bbc47;
     text-decoration : none;
     }
 
