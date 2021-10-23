@@ -2,6 +2,15 @@
 .nav-item {font-size: 20px;
 color: #6200EA !important;}
 
+.font_link  { color:#1bbc47;
+  text-decoration:none;
+  }
+  
+  font_link:hover {
+  color:#6200EA;
+  text-decoration : none;
+  }
+
 .search {font-size: 14px;}
 
 .category {font-size: 18px}
